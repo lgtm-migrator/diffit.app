@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.text-md-primary {
+    color: #D0BCFF;
+  }
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
