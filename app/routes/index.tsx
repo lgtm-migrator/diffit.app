@@ -74,8 +74,8 @@ export default function Index() {
         <div className="">
             <div className="flex mb-6 pa-6">
                 <div className="flex-auto"></div>
-                <Form className="flex-auto text-center"><textarea defaultValue={diff1} rows={5} wrap={"false"} className="bg-transparent border border-white border-opacity-60"></textarea></Form>
-                <Form className="flex-auto text-center"><textarea defaultValue={diff2} rows={5} wrap={"false"} className="bg-transparent border border-white border-opacity-60"></textarea></Form>
+                <Form className="flex-auto text-center"><textarea onChange={(e) => setDiff1(e.currentTarget.value)} value={diff1} rows={5} wrap={"false"} className="bg-transparent border border-white border-opacity-60"></textarea></Form>
+                <Form className="flex-auto text-center"><textarea onChange={(e) => setDiff2(e.currentTarget.value)} value={diff2} rows={5} wrap={"false"} className="bg-transparent border border-white border-opacity-60"></textarea></Form>
                 <div className="flex-auto"></div>
             </div>
             <div className="flex justify-center mb-6 pa-6">
